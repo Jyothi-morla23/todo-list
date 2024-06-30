@@ -1,0 +1,7 @@
+<ul class="list">
+  <li class="list-item" *ngFor="let task of tasks">
+    <input type="checkbox" (change)="toggleTaskCompletion(task.Id)" />
+    <span [ngClass]="{ completed: task.Completed }">{{ task.Title }}</span>
+    <button class="deleteButton" (click)="deleteTask(task.Id)">Delete</button>
+  </li>
+</ul>

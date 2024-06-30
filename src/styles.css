@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+.completed {
+  text-decoration: line-through;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.addInput {
+  width: 500px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.addTask {
+  width: 150px;
+  height: 35px;
+  background-color: #1035ac;
+  border: none;
+  border-radius: 8px;
+  color: #eee;
+}
+
+.deleteButton {
+  width: 50px;
+  height: 30px;
+  background-color: #1035ac;
+  border: none;
+  border-radius: 8px;
+  color: #eee;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-item {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  background-color: #01ffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
